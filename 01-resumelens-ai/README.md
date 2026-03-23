@@ -85,7 +85,9 @@ streamlit run ui.py
 ## 📸 Demo
 
 
-[Demo Screenshot](demo.png)
+[Demo Screenshot]
+(demo.png)
+(demo1.png)
 
 ---
 
