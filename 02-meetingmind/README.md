@@ -72,7 +72,7 @@ Streamlit UI (brief card)
 
 ## 🚀 Run Locally
 ```bash
-git clone https://github.com/YOUR_USERNAME/ai-portfolio
+git clone https://github.com/vedap24/ai-portfolio
 cd 02-meetingmind
 
 # Activate shared venv

@@ -62,7 +62,7 @@ User Input (JD + Resume)
 ## 🚀 Run Locally
 ```bash
 # Clone the repo
-git clone https://github.com/YOUR_USERNAME/resumelens-ai
+git clone https://github.com/vedap24/resumelens-ai
 cd resumelens-ai
 
 # Create virtual environment
