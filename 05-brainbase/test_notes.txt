@@ -1,0 +1,7 @@
+RAG stands for Retrieval Augmented Generation.
+It works by: ingesting documents, chunking text,
+creating embeddings, storing in vector DB,
+retrieving relevant chunks, and generating answers.
+Key components: embeddings, vector store, retrieval chain.
+Best practices: paragraph chunking beats token chunking.
+Always cite sources in RAG outputs for trust.
