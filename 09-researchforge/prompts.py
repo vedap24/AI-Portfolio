@@ -29,10 +29,10 @@ def format_report_as_markdown(
         ):
             md += (
                 f"**{i}. "
-                f"{f.get('finding', '')}**\n\n"
+                f"{f.model_dump().get('finding', '')}**\n\n"
             )
             md += (
-                f"{f.get('detail', '')}\n\n"
+                f"{f.model_dump().get('detail', '')}\n\n"
             )
 
     if report.get("section_breakdown"):
@@ -40,11 +40,11 @@ def format_report_as_markdown(
         for section in report["section_breakdown"]:
             md += (
                 f"### "
-                f"{section.get('section_title', '')}"
+                f"{section.model_dump().get('section_title', '')}"
                 f"\n\n"
             )
             md += (
-                section.get("content", "")
+                section.model_dump().get("content", "")
                 + "\n\n"
             )
 
