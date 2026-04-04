@@ -432,7 +432,8 @@ with left_col:
                 # Follow-ups
                 if ans.follow_up_suggestions:
                     st.markdown(
-                        "<br>**💡 You might also ask:**"
+                        "<br>**💡 You might also ask:**",
+                        unsafe_allow_html=True
                     )
                     for fq in \
                             ans.follow_up_suggestions:
